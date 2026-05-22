@@ -5,8 +5,6 @@ A smart life organizer built for moms who are also students or professionals. Ma
 ## Live Demo
 🔗 [momlife-organizer1.vercel.app](https://momlife-organizer1.vercel.app)
 
-## Preview
-> Add a screenshot or GIF here
 
 ## Features
 - ✅ **Task Manager** — add, edit, delete, and complete tasks with category and priority
