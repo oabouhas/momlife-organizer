@@ -1,16 +1,42 @@
-# React + Vite
+# MamaBalance 💖
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A smart life organizer built for moms who are also students or professionals. Manage tasks, appointments, and get AI-powered support — all in one place.
 
-Currently, two official plugins are available:
+## Live Demo
+🔗 [momlife-organizer1.vercel.app](https://momlife-organizer1.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Preview
+> Add a screenshot or GIF here
 
-## React Compiler
+## Features
+- ✅ **Task Manager** — add, edit, delete, and complete tasks with category and priority
+- 🔴🟡🟢 **Priority Sorting** — tasks automatically sorted by High, Medium, Low priority
+- 🔍 **Search & Filter** — filter by category (Baby, School, Work, Social, Self-care)
+- 📅 **Calendar** — add appointments with time to any date
+- 💬 **AI Chat** — powered by Llama 3.3 via Groq, fine-tuned for moms balancing life
+- 🌙 **Dark Mode** — easy on the eyes for late night planning
+- 📱 **Mobile Friendly** — bottom navigation bar on small screens
+- 💾 **Persistent Storage** — tasks and appointments saved to localStorage
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
+- **Frontend:** React.js (Vite)
+- **AI Chat:** Llama 3.3 70B via Groq API
+- **Styling:** Custom CSS with Google Fonts (Playfair Display + DM Sans)
+- **Calendar:** react-calendar
+- **Deployment:** Vercel
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+- Node.js 18+
+- Groq API key (free at console.groq.com)
+
+### Installation
+```bash
+git clone https://github.com/oabouhas/momlife-organizer.git
+cd momlife-organizer
+npm install
+```
+
+### Setup
+Create a `.env` file in the root folder:
